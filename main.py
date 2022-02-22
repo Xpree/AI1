@@ -331,7 +331,7 @@ if __name__ == '__main__':
     print("====================================")
     for i in range(1000):
         startTime = time.perf_counter()
-        timeInterval = 0.2
+        timeInterval = 4
         while(startTime + timeInterval > time.perf_counter()):
             pass
                     
